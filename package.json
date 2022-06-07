@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -52,6 +53,10 @@
     "@types/qrcode": "^1.4.2",
     "@types/ws": "^8.5.3",
     "typescript": "^4.6.3"
+  },
+  "engines" : { 
+    "npm" : "^7.0.0",
+    "node" : "^16.0.0"
   },
   "keywords": [
     "nft",
