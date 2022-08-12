@@ -1,0 +1,122 @@
+finished
+Generation: 0  Profit:  {
+  max: 49581.849999999984,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.05314803056181147,
+    takeProfit: 0.183633647510443,
+    deltaTopUp: 0.005408553943679565,
+    deltaTopDown: 0.005978755928879312,
+    marketDown: -0.026142266749033652
+  }
+}
+Generation: 1  Profit:  {
+  max: 49581.849999999984,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.05314803056181147,
+    takeProfit: 0.183633647510443,
+    deltaTopUp: 0.005408553943679565,
+    deltaTopDown: 0.005978755928879312,
+    marketDown: -0.026142266749033652
+  }
+}
+Generation: 2  Profit:  {
+  max: 49581.849999999984,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.05314803056181147,
+    takeProfit: 0.183633647510443,
+    deltaTopUp: 0.005408553943679565,
+    deltaTopDown: 0.005978755928879312,
+    marketDown: -0.026142266749033652
+  }
+}
+Generation: 3  Profit:  {
+  max: 52243.46999999999,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.05314803056181147,
+    takeProfit: 0.183633647510443,
+    deltaTopUp: 0.0013149783088568792,
+    deltaTopDown: 0.005978755928879312,
+    marketDown: -0.026142266749033652
+  }
+}
+Generation: 4  Profit:  {
+  max: 52243.46999999999,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.03522213637064994,
+    takeProfit: 0.183633647510443,
+    deltaTopUp: 0.0013149783088568792,
+    deltaTopDown: 0.005978755928879312,
+    marketDown: -0.026142266749033652
+  }
+}
+Generation: 5  Profit:  {
+  max: 49581.849999999984,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.05314803056181147,
+    takeProfit: 0.183633647510443,
+    deltaTopUp: 0.005408553943679565,
+    deltaTopDown: 0.005978755928879312,
+    marketDown: -0.026142266749033652
+  }
+}
+Generation: 6  Profit:  {
+  max: 49301.39999999999,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.031056849842729717,
+    takeProfit: 0.06207627473294151,
+    deltaTopUp: 0.006807535560373234,
+    deltaTopDown: 0.0034188043099045036,
+    marketDown: -0.01443252149758971
+  }
+}
+Generation: 7  Profit:  {
+  max: 49301.39999999999,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.031056849842729717,
+    takeProfit: 0.06207627473294151,
+    deltaTopUp: 0.006807535560373234,
+    deltaTopDown: 0.0034188043099045036,
+    marketDown: -0.01443252149758971
+  }
+}
+Generation: 8  Profit:  {
+  max: 39416.12999999999,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.11749953001322563,
+    takeProfit: 0.12783130599944983,
+    deltaTopUp: 0.006807535560373234,
+    deltaTopDown: 0.0034188043099045036,
+    marketDown: -0.09716616988390125
+  }
+}
+Generation: 9  Profit:  {
+  max: 40416.54,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.11749953001322563,
+    takeProfit: 0.12783130599944983,
+    deltaTopUp: 0.0025573521163509156,
+    deltaTopDown: 0.0034188043099045036,
+    marketDown: -0.09716616988390125
+  }
+}
+{
+  max: 57659.770000000004,
+  maxParams: {
+    entryLevel: 29083.47,
+    stopLoss: -0.1957648344123346,
+    takeProfit: 0.12158591255093154,
+    deltaTopUp: 0.007247430145299425,
+    deltaTopDown: 0.005790488121291257,
+    marketDown: -0.09950753924885462
+  }
+}
