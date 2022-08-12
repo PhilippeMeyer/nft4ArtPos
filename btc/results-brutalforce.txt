@@ -1,0 +1,21 @@
+number of samples:  1273608
+profit:  78537.76000000005 stopLoss:  -0.02 takeProfit:  0.18500000000000008 deltaTopDown:  0.003 deltaTopUp:  0.001 marketDown:  -0.025
+profit:  76337.46999999996 stopLoss:  -0.02 takeProfit:  0.19000000000000009 deltaTopDown:  0.004 deltaTopUp:  0.001 marketDown:  -0.030000000000000002
+profit:  74758.91 stopLoss:  -0.015 takeProfit:  0.18500000000000008 deltaTopDown:  0.005 deltaTopUp:  0.004 marketDown:  -0.015
+profit:  74461.86000000003 stopLoss:  -0.02 takeProfit:  0.19000000000000009 deltaTopDown:  0.003 deltaTopUp:  0.001 marketDown:  -0.025
+profit:  73595.45999999999 stopLoss:  -0.02 takeProfit:  0.19000000000000009 deltaTopDown:  0.004 deltaTopUp:  0.004 marketDown:  -0.030000000000000002
+profit:  73328.82000000002 stopLoss:  -0.025 takeProfit:  0.19000000000000009 deltaTopDown:  0.003 deltaTopUp:  0.005 marketDown:  -0.030000000000000002
+profit:  72616.03999999995 stopLoss:  -0.04 takeProfit:  0.19000000000000009 deltaTopDown:  0.002 deltaTopUp:  0.007 marketDown:  -0.030000000000000002
+profit:  72493.73999999998 stopLoss:  -0.025 takeProfit:  0.1950000000000001 deltaTopDown:  0.005 deltaTopUp:  0.007 marketDown:  -0.030000000000000002
+profit:  72448.62000000002 stopLoss:  -0.02 takeProfit:  0.18500000000000008 deltaTopDown:  0.002 deltaTopUp:  0.003 marketDown:  -0.02
+profit:  72400.42000000004 stopLoss:  -0.015 takeProfit:  0.18500000000000008 deltaTopDown:  0.006 deltaTopUp:  0.004 marketDown:  -0.015
+profit:  72262.12000000002 stopLoss:  -0.02 takeProfit:  0.19000000000000009 deltaTopDown:  0.002 deltaTopUp:  0.002 marketDown:  -0.030000000000000002
+profit:  72192.93000000005 stopLoss:  -0.02 takeProfit:  0.18500000000000008 deltaTopDown:  0.005 deltaTopUp:  0.001 marketDown:  -0.030000000000000002
+profit:  72120.86000000003 stopLoss:  -0.025 takeProfit:  0.19000000000000009 deltaTopDown:  0.002 deltaTopUp:  0.005 marketDown:  -0.030000000000000002
+profit:  71730.76999999997 stopLoss:  -0.02 takeProfit:  0.19000000000000009 deltaTopDown:  0.005 deltaTopUp:  0.003 marketDown:  -0.030000000000000002
+profit:  71607.58999999991 stopLoss:  -0.015 takeProfit:  0.12500000000000003 deltaTopDown:  0.006 deltaTopUp:  0.007 marketDown:  -0.01
+profit:  71540.12 stopLoss:  -0.02 takeProfit:  0.18500000000000008 deltaTopDown:  0.003 deltaTopUp:  0.003 marketDown:  -0.025
+profit:  71446.10999999997 stopLoss:  -0.02 takeProfit:  0.19000000000000009 deltaTopDown:  0.006 deltaTopUp:  0.007 marketDown:  -0.030000000000000002
+profit:  71280.58999999997 stopLoss:  -0.04 takeProfit:  0.19000000000000009 deltaTopDown:  0.001 deltaTopUp:  0.007 marketDown:  -0.025
+profit:  71184.47 stopLoss:  -0.02 takeProfit:  0.19000000000000009 deltaTopDown:  0.005 deltaTopUp:  0.002 marketDown:  -0.030000000000000002
+profit:  71094.65000000001 stopLoss:  -0.030000000000000002 takeProfit:  0.19000000000000009 deltaTopDown:  0.001 deltaTopUp:  0.002 marketDown:  -0.035
