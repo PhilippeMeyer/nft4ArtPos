@@ -47,14 +47,30 @@ class Member {
     }
 
     crossover(partner) {
-        let st = Math.random() > 0.5 ? this.st : partner.st;
-        let tp = Math.random() > 0.5 ? this.tp : partner.tp;
-        let du = Math.random() > 0.5 ? this.du : partner.du;
-        let dd = Math.random() > 0.5 ? this.dd : partner.dd;
-        let md = Math.random() > 0.5 ? this.md : partner.md;
+        let factor = 0.0;
+        let st, tp, du, dd, md;
+
+        if (partner.profit > this.profit) {
+            factor = this.profit/partner.profit;
+            st = Math.random() * factor > 0.5 ? partner.st : this.st;
+            tp = Math.random() * factor > 0.5 ? partner.tp : this.tp;
+            du = Math.random() * factor > 0.5 ? partner.du : this.du;
+            dd = Math.random() * factor > 0.5 ? partner.dd : this.dd;
+            md = Math.random() * factor > 0.5 ? partner.md : this.md;
+        } else {
+            factor = partner.profit/this.profit;
+            st = Math.random() * factor > 0.5 ? this.st : partner.st;
+            tp = Math.random() * factor > 0.5 ? this.tp : partner.tp;
+            du = Math.random() * factor > 0.5 ? this.du : partner.du;
+            dd = Math.random() * factor > 0.5 ? this.dd : partner.dd;
+            md = Math.random() * factor > 0.5 ? this.md : partner.md;
+        }
 
         const child = new Member(this.el, st, tp, du, dd, md);
-        return child;
+        console.log('P1: ',this.profit,' P2: ', partner.profit,' Child: ', child.profit);
+        if ((child.profit > this.profit) && (child.profit > partner.profit)) {console.log('child'); return child; }
+        else return partner.profit > this.profit ? partner : this;
+        //return child;
     }
 
     mutate(mutationRate) {
@@ -66,7 +82,7 @@ class Member {
     }
 
     parameters() {
-        return {'entryLevel': this.el, 'stopLoss': this.st, 'takeProfit': this.tp, 'deltaTopUp': this.du, 'deltaTopDown': this.dd, 'marketDown': this.md };
+        return {'entryLevel': this.el, 'stopLoss': this.st, 'takeProfit': this.tp, 'deltaTopUp': this.du, 'deltaTopDown': this.dd, 'marketDown': this.md, 'profit': this.profit };
     }
 }
 
@@ -92,17 +108,18 @@ class Population {
         const fit = [];
 
         // find the minimum of the positive profits and copy all the profits in the fit array
-        let min = 0.0;
+        let min = 100000000000.0;
         this.members.forEach((m) => {
             let f = m.fitness();
             fit.push(f);
-            if ((f > 0) || (f < min)) min = f;
+            if ((f > 0) && (f < min)) min = f;
         });
 
         fit.forEach((f, i) => {
-            if (f < 0) matingPool.push(this.members[i]);            // We insert the negative profit only once
-            else {
-                let j = Math.floor(f/min) || 1;                     // We insert the best performing multiple times
+            //if (f < 0) matingPool.push(this.members[i]);            // We insert the negative profit only once
+            //else
+            if (f > 0) {
+                let j = Math.ceil(f/min) || 1;                     // We insert the best performing multiple times
                 for(let k = 0 ; k < j ; k++) matingPool.push(this.members[i]);
             }
         });
@@ -173,7 +190,7 @@ fs.createReadStream(filename)
   .on("end", function () {
     console.log("finished");
     prices.reverse();
-    generate(20, startingPoint, 0.03, 30);
+    generate(20, startingPoint, 0.05, 30);
   })
   .on("error", function (error) {
     console.log(error.message);
